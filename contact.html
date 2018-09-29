@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Name: Rachel Leite
+Date Created: 9/17/2018
+Most Recent Revision: 9/21/2018
+-->
+
+<head>
+<title> Contact Us </title>
+</head>
+
+<body style="text-align:left">
+  <header>
+<div style="text-align:left">
+  <font size="4"> </font>
+  Contact Us
+</div>
+<hr color="lightgray" />
+    <h1 style="text-align:center"> Bombas' Burgs </h1>
+  </header>
+
+<nav style="text-align:left">
+<hr/>
+<a href="index.html"> Home </a>
+&nbsp &nbsp &nbsp
+<a href="menu.html"> Menu </a>
+&nbsp &nbsp &nbsp
+<a href="contact.html"> Contact Us </a>
+&nbsp &nbsp &nbsp
+<hr/>
+</nav>
+
+<form action="submit.html" method="POST">
+<p> Name: <input type="text" name="name" /> </p>
+<p> Email: <input type="text" name="email" /> </p>
+<p> Phone: <input type="text" name="phone" /> </p>
+
+<p> Reason for Inquiry:
+<select name="inquiry" >
+  <option value="default" selected > Catering
+    <br/>
+    </option>
+  <option value="private" > Private Party
+    <br/>
+    </option>
+  <option value="feedback" > Feedback
+    <br/>
+    </option>
+  <option value="other" > Other
+    <br/>
+    </option>
+</select>
+    <br/>
+</p>
+
+<p>
+Additional Information:
+<textarea name="info" style="vertical-align: top" cols="25" rows="6">
+</textarea>
+</p>
+
+<p>
+Have you been to the restaurant?
+<input type="radio" name="answer" value="NO" checked /> No
+<input type="radio" name="answer" value="YES" /> Yes
+</p>
+
+<p>
+Best days to contact you:
+<input type="checkbox" name="days" value="monday" /> M
+<input type="checkbox" name="days" value="tuesday" /> T
+<input type="checkbox" name="days" value="wednesday" /> W
+<input type="checkbox" name="days" value="thursday" /> Th
+<input type="checkbox" name="days" value="friday" /> F
+</p>
+
+<p>
+<button> Send Request </button>
+</p>
+<hr/>
+
+<footer style="text-align:center">
+<p>
+  4271 West Corridor Street, Los Angeles, CA, 90210
+</p>
+<p>
+  213-687-BOMB
+</p>
+</footer>
+
+</body>
+</html>
